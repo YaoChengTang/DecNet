@@ -1,0 +1,7 @@
+CUDA_VISIBLE_DEVICES=1,2,3 python demo.py --arch sparsedensenetrefinementmask --seed 37 --max_disp 216 --base_channels 8 --cost_func="cor" --grad_method="detach" --num_stage 4 --down_scale 3 --down_func_name "bicubic" --root="./InputData/Sceneflow" --resume="./Log/Sceneflow/sparsedensenetrefinementmask.pkl" --save2where="./InputData/Sceneflow" --use_detail=1 --thold=0.9
+
+# CUDA_VISIBLE_DEVICES=1,2,3 python demo.py --arch sparsedensenetrefinementmask --seed 37 --max_disp 216 --base_channels 8 --cost_func="cor" --grad_method="detach" --num_stage 4 --down_scale 3 --down_func_name "bicubic" --root="./InputData/KITTI" --resume="./Log/Kitti/sparsedensenetrefinementmask.pkl" --save2where="./InputData/KITTI" --use_detail=1 --thold=0.9
+
+# CUDA_VISIBLE_DEVICES=1,2,3 python demo.py --arch sparsedensenetrefinementmask --seed 37 --max_disp 216 --base_channels 8 --cost_func="cor" --grad_method="detach" --num_stage 4 --down_scale 3 --down_func_name "bicubic" --root="./InputData/Middlebury" --resume="./Log/Middlebury/sparsedensenetrefinementmask.pkl" --save2where="./InputData/Middlebury" --use_detail=1 --thold=0.9 --skip_stage_id=3
+
+# CUDA_VISIBLE_DEVICES=1,2,3 python demo.py --arch sparsedensenetrefinementmask --seed 37 --max_disp 216 --base_channels 8 --cost_func="cor" --grad_method="detach" --num_stage 4 --down_scale 3 --down_func_name "bicubic" --root="./InputData/real" --resume="./Log/Middlebury/sparsedensenetrefinementmask.pkl" --save2where="./InputData/real" --use_detail=1 --thold=0.9 --skip_stage_id=3

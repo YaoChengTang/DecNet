@@ -1,0 +1,29 @@
+{
+  "flying3dmask":
+  {
+    "data_path": "/home/FastDataLoader/flying3d"
+  },
+  "drivingmask":
+  {
+    "data_path": "/home/FastDataLoader/driving"
+  },
+  "sceneflowmask":
+  {
+    "data_path": "/home/FastDataLoader/flying3d"
+  },
+  
+   "kitti15mask":
+  {
+    "data_path": "/home/FastDataLoader/kitti15/"
+  },
+  
+    "drivingstereomask":
+  {
+    "data_path": "/home/dataset1/DrivingStereo"
+  },
+  
+    "middleburymask":
+  {
+    "data_path": "/home/FastDataLoader/Middlebury"
+  }
+}
