@@ -32,8 +32,8 @@ The code is still a little messy, which will be updated later.
 # Citation
 If you use our source code, or our paper, please consider citing the following:
 > @inproceedings{Yao2021CVPR,  
-title={A Decomposition Model for Stereo Matching},  
-author={Yao, Chengtang and Jia, Yunde and Di, Huijun and Li, Pengxiang and Wu, Yuwei},  
-booktitle = {CVPR},  
-year = {2021}
+  title={A Decomposition Model for Stereo Matching},  
+  author={Yao, Chengtang and Jia, Yunde and Di, Huijun and Li, Pengxiang and Wu, Yuwei},  
+  booktitle = {CVPR},  
+  year = {2021}   
 }

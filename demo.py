@@ -137,7 +137,7 @@ def test(args):
     
     model.eval()
     dir_list = os.listdir(args.root)
-    for i, name in enumerate(dir_list*10) :
+    for i, name in enumerate(dir_list) :
         if not os.path.isdir(os.path.join(args.root,name)) :
             continue
 
