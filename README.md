@@ -29,7 +29,7 @@ The code is still a little messy, which will be updated later.
        链接：https://pan.baidu.com/s/1GJktiOh2vsgvWYo2jb_wKw   
        提取码：qwv4 
    
-   以上链接如果失效，请见：https://pan.baidu.com/s/1S8QWo-uyUzMIbNx4o9mBGQ 提取码: xthi
+   If the above links fail, use the following link：https://pan.baidu.com/s/1S8QWo-uyUzMIbNx4o9mBGQ 提取码: xthi
 
 # Citation
 If you use our source code, or our paper, please consider citing the following:
